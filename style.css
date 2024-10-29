@@ -70,7 +70,7 @@ section {
 
 .navbar {
   max-width: 80%;
-  margin: 30px auto;
+  margin: 10px auto;
   margin-bottom: 0;
 
   justify-content: space-between;
@@ -101,7 +101,7 @@ section {
 /* * BANNER */
 .banner {
   max-width: 80%;
-  margin: 0 auto;
+  margin: 50px auto;
   justify-content: space-between;
 }
 
@@ -503,4 +503,175 @@ footer {
 .copyright {
   text-align: center;
   /* margin: 36px 0px; */
+}
+
+/* ! RESPONSIVE FOR MOBILE DEVICE */
+@media screen and (max-width: 576px) {
+  /* ^ NAVBAR */
+  .navbar-options {
+    display: none;
+  }
+  .hamburger-icon {
+    display: block;
+  }
+
+  /* ^ BANNER */
+  .hero {
+    padding: 0px 20px;
+  }
+
+  .banner {
+    flex-direction: column;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .banner-welcome,
+  .banner-button,
+  .banner-img img {
+    max-width: 100%;
+  }
+
+  .banner-about {
+    padding-right: 80px;
+  }
+
+  .banner-title {
+    font-size: 2.2rem;
+  }
+
+  .remove-text {
+    display: none;
+  }
+
+  #pri-button {
+    max-width: 40%;
+    padding: 5px 30px;
+  }
+
+  #thr-button {
+    max-width: 60%;
+  }
+
+  .contain1 {
+    left: 2%;
+  }
+
+  .contain2 {
+    width: 150px;
+    padding-left: 10px;
+    top: 30%;
+    left: 50%;
+  }
+
+  .contain2-title {
+    font-size: 1.5rem;
+  }
+
+  /* ^ HABIT */
+  .habit-blocks {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .habit-about {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .habit-title {
+    font-size: 2.3rem;
+  }
+
+  /* ^ RUN */
+  .run {
+    flex-direction: column;
+    padding: 30px 33px;
+    gap: 30px;
+    /* max-width: 325px; */
+    max-width: 77%;
+  }
+
+  .run-title {
+    font-size: 2rem;
+  }
+
+  .run-img {
+    width: 325px;
+    height: 170px;
+  }
+
+  #run-button {
+    width: 325px;
+  }
+
+  /* ^ BMI */
+  .bmi-form-details {
+    flex-direction: column;
+  }
+
+  .bmi-intro {
+    margin-bottom: 32px;
+    padding: 0px 10px;
+  }
+
+  .intro-title {
+    font-size: 2rem;
+  }
+
+  .chart-title {
+    font-size: 1rem;
+  }
+
+  .bmi-calculator {
+    padding-top: 20px;
+  }
+
+  .bmi-form-details {
+    max-width: 100%;
+    padding: 0px 10px;
+    gap: 30px;
+  }
+
+  .weight {
+    width: 100%;
+  }
+
+  /* ^ TEAM */
+  .team {
+    max-width: 100%;
+    gap: 35px;
+  }
+
+  .team-about {
+    max-width: 310px;
+  }
+
+  .team-title {
+    font-size: 2rem;
+  }
+
+  .team-img {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* ^ FOOTER */
+  .footer-body {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .service {
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 70px;
+  }
+
+  .contact-service {
+    width: 100%;
+  }
+
+  .contact-title {
+    margin: 0;
+  }
 }
