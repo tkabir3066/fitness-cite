@@ -194,3 +194,45 @@ body {
   margin-top: 5px;
   font-weight: lighter;
 }
+
+/* * HABIT PART */
+.habit {
+  margin-top: 20px;
+  max-width: 80%;
+  flex-direction: column;
+  gap: 58px;
+  text-align: center;
+}
+
+.habit-about {
+  flex-direction: column;
+  gap: 15px;
+  max-width: 65%;
+  margin: 0 auto;
+}
+
+.habit-title {
+  margin: 0;
+}
+
+.habit-blocks {
+  gap: 40px;
+  justify-content: center;
+}
+
+.block {
+  max-width: 230px;
+}
+
+.block-title {
+  font-size: 1.12rem;
+  margin-bottom: 0;
+}
+
+.block-para {
+  font-size: 0.87rem;
+}
+
+.block img {
+  border-radius: 50%;
+}
