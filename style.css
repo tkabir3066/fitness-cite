@@ -12,7 +12,7 @@ body {
   box-sizing: border-box;
 }
 
-.banner {
+section {
   margin: 0 auto;
   margin-top: 100px;
 }
@@ -235,4 +235,42 @@ body {
 
 .block img {
   border-radius: 50%;
+}
+
+/* * RUN PART */
+.run {
+  max-width: 58%;
+  background-color: #222222;
+  border-radius: 18px;
+  justify-content: space-between;
+  padding: 30px 32px 30px 54px;
+  align-items: center;
+}
+
+.run-about {
+  max-width: 443px;
+}
+
+.run-title {
+  margin: 0;
+}
+
+.run-img {
+  background-image: url(images/run.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 366px;
+  height: 312px;
+  border-radius: 18px;
+}
+
+#run-button {
+  background-color: #e6533c;
+  color: white;
+  padding: 16px 40px;
+  border-radius: 42px;
+  font-weight: 700;
+  font-size: 1.12rem;
+  border: none;
+  width: 220px;
 }
