@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: white;
+  background-color: #191818;
+  box-sizing: border-box;
+}
+
+.banner {
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+/*^ SHARED CSS */
+.displayflex {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.orange {
+  color: #e6533c;
+}
+
+.light-gray {
+  color: #ffffff71;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+#pri-button {
+  background-color: #e6533c;
+  color: white;
+  padding: 16px 40px;
+  border-radius: 42px;
+  font-weight: 700;
+  font-size: 1.12rem;
+  border: none;
+}
+
+#sec-button {
+  background-color: #e6533c;
+  padding: 8px 20px;
+  border-radius: 46px;
+  font-weight: 700;
+}
+
+#thr-button {
+  background-color: black;
+  color: white;
+  padding: 16px 40px;
+  border-radius: 42px;
+  font-weight: 700;
+  font-size: 1.12rem;
+  border: 1px solid white;
+}
+
+/* * NAVBAR */
+.hamburger-icon {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.navbar {
+  max-width: 80%;
+  margin: 30px auto;
+  margin-bottom: 0;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-title {
+  font-size: 2.25rem;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.navbar-options {
+  gap: 50px;
+  border: 1px solid #ffffff4a;
+  border-radius: 39px;
+  /* padding: 12px 24px; */
+  padding-right: 24px;
+  align-items: center;
+}
+
+.option {
+  text-decoration: none;
+  color: white;
+  font-size: 1.125rem;
+}
+
+/* * BANNER */
+.banner {
+  max-width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.banner-welcome {
+  max-width: 40%;
+}
+
+.banner-title {
+  font-size: 4.87rem;
+  /* padding-right: 100px; */
+}
+
+#unique-title {
+  font-family: "Mrs Saint Delafield", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5.6rem;
+  line-height: 0.8;
+}
+
+.banner-para {
+  padding-right: 50px;
+  margin-bottom: 28px;
+}
+
+.banner-button {
+  gap: 24px;
+}
+
+.banner-img {
+  position: relative;
+}
+
+.contain1,
+.contain2 {
+  width: 206px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.contain1,
+.contain2 {
+  position: absolute;
+}
+
+.contain1 {
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  top: 70%;
+  left: -35%;
+}
+
+.ball {
+  width: 40px;
+  height: 40px;
+  background-color: #e6533c;
+  border-radius: 50%;
+}
+
+.contain1-title {
+  font-size: 1.5rem;
+  margin: 0;
+  margin-top: 12px;
+}
+
+.contain1-para {
+  margin-top: 5px;
+  font-weight: lighter;
+}
+
+.contain2 {
+  padding-left: 24px;
+  top: 20%;
+  left: 60%;
+}
+
+.contain2-title {
+  font-size: 2.5rem;
+  margin: 0;
+  margin-top: 12px;
+}
+
+.contain2-para {
+  margin-top: 5px;
+  font-weight: lighter;
+}
