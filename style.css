@@ -1,11 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-* {
+body {
   margin: 0;
   padding: 0;
-}
-
-body {
   font-family: "Inter", sans-serif;
   color: white;
   background-color: #191818;
@@ -463,4 +460,47 @@ select {
   background-size: cover;
   background-position: center;
   filter: brightness(80%);
+}
+
+/* * FOOTER */
+footer {
+  background-color: #222222;
+  margin-top: 60px;
+  padding: 66px 0px 36px 0px;
+}
+
+.footer-body {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.service {
+  /* justify-content: space-evenly; */
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #525252;
+  width: 73.5%;
+  margin: auto;
+  margin-bottom: 36px;
+}
+
+.footer-title {
+  font-size: 4.37rem;
+  font-style: italic;
+  font-weight: 900;
+  margin: 0;
+}
+
+.club-talks {
+  max-width: 443px;
+}
+
+.contact-title {
+  font-size: 2rem;
+  color: white;
+}
+
+.copyright {
+  text-align: center;
+  /* margin: 36px 0px; */
 }
