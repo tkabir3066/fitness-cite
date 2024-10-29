@@ -374,3 +374,93 @@ select {
   font-size: 1.12rem;
   border: none;
 }
+
+/** TEAM */
+.team {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  justify-content: center;
+  align-items: center;
+  gap: 58px;
+}
+
+.team-about {
+  max-width: 670px;
+  margin: 0 auto;
+}
+
+.team-title {
+  margin-bottom: 0;
+}
+
+.team-img {
+  display: grid;
+  margin: 0 auto;
+  padding: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #222222;
+  border-radius: 18px;
+  max-width: 1060px;
+  gap: 20px;
+}
+
+.member {
+  width: 325px;
+  height: 272px;
+  border-radius: 18px;
+  text-align: left;
+}
+
+.member h4 {
+  margin-top: 65%;
+  padding-left: 18px;
+  margin-bottom: 0;
+}
+
+.member p {
+  padding-left: 18px;
+  margin-top: 0;
+}
+
+#member1 {
+  background-image: url(images/trainer1.png);
+  background-size: cover;
+  background-position: center;
+  filter: brightness(75%);
+}
+
+#member2 {
+  background-image: url(images/trainer2.png);
+  background-size: cover;
+  background-position: center;
+  filter: brightness(75%);
+}
+
+#member3 {
+  background-image: url(images/trainer3.png);
+  background-size: cover;
+  background-position: center;
+  filter: brightness(75%);
+}
+
+#member4 {
+  background-image: url(images/trainer4.png);
+  background-size: cover;
+  background-position: center;
+  filter: brightness(75%);
+}
+
+#member5 {
+  background-image: url(images/trainer5.png);
+  background-size: cover;
+  background-position: center;
+  filter: brightness(75%);
+}
+
+#member6 {
+  background-image: url(images/trainer6.png);
+  background-size: cover;
+  background-position: center;
+  filter: brightness(80%);
+}
